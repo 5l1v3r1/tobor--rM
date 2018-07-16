@@ -4,7 +4,7 @@ const ms = require("ms")
 var prefix = 'Mr.';
 
 client.on('ready', () => {
-    client.user.setPresence({ game: { name:`Mr.help | ${client.users.size} membres` }})
+    client.user.setPresence({ game: { name:`Mr.help`}})
   console.log(`Connecté en tant que ${client.user.tag}!`);
 });
 
